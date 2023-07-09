@@ -18,4 +18,16 @@ Workflow:
 
 ![stepfunctions_graph](https://github.com/paulkannan/kycserverless/assets/46925641/406206ae-d1d4-4fd0-a722-341cb0ec89ff)
 
+To Deploy the code using Terraform:
 
+1. Clone the Repository: Start by cloning the GitHub repository to your local machine. Use the git clone command to clone the repository: **git clone <repository-url>**
+2. Navigate to the Repository: Change into the cloned repository directory:  **cd <repository-directory>**
+3. Review the Terraform Code: Explore the contents of the repository and locate the Terraform code files (e.g., .tf files) that define the infrastructure.
+4. Install Terraform: Ensure that Terraform is installed on your local machine. You can download Terraform from the official website (https://www.terraform.io/downloads.html) and follow the installation instructions for your operating system.
+5. Initialize the Terraform Configuration: Run **terraform init** in the repository directory to initialize the Terraform configuration. This command downloads the necessary provider plugins and sets up the working directory.Review Variables: Check if there are any variables defined in the Terraform code or provided through variable files (*.tfvars files). Modify the values of the variables as required.
+6. Plan the Infrastructure Changes: Run **terraform plan** to preview the infrastructure changes that Terraform will make. This step provides an overview of the resources that will be created, modified, or destroyed.
+7. Apply the Infrastructure Changes: If you are satisfied with the planned changes, apply the infrastructure modifications by running **terraform apply**. Terraform will prompt for confirmation before making any changes.
+8. Review and Validate the Infrastructure: Once the Terraform apply command completes, review the created infrastructure to ensure it matches your expectations. Verify that the resources have been provisioned correctly.
+9. Cleanup and Destroy the Infrastructure (Optional): If you want to clean up the resources created by Terraform, run **terraform destroy**. This command will prompt for confirmation before destroying the resources.
+
+**_Note: The specific steps may vary depending on the structure of the repository and the provided documentation. Always refer to the repository's documentation or README file for any specific instructions or requirements._**
