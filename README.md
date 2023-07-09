@@ -14,3 +14,8 @@ Workflow:
   - The Step Function workflow showcasing the different States.
 
 
+
+
+![stepfunctions_graph](https://github.com/paulkannan/kycserverless/assets/46925641/406206ae-d1d4-4fd0-a722-341cb0ec89ff)
+
+
