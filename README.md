@@ -31,3 +31,23 @@ To Deploy the code using Terraform:
 9. Cleanup and Destroy the Infrastructure (Optional): If you want to clean up the resources created by Terraform, run **terraform destroy**. This command will prompt for confirmation before destroying the resources.
 
 **_Note: The specific steps may vary depending on the structure of the repository and the provided documentation. Always refer to the repository's documentation or README file for any specific instructions or requirements._**
+
+**TestCases:**
+By running go test, you can execute the tests defined in main_test.go and validate the infrastructure provisioned by Terraform based on the assertions made within the test functions.
+  - You'll need to have the following dependencies installed to run the tests:
+    - **Go programming language**
+    - **Terratest library (github.com/gruntwork-io/terratest)**
+  - You can run the tests by executing go test in the directory where the test file is located. The tests will provision the infrastructure, validate its state, and clean up the resources afterward.
+  - To run the tests in main_test.go, you can use the go test command. Here's how to run the tests from the command line:
+      -  Open a terminal or command prompt.
+      -  Navigate to the directory where your main_test.go file is located.
+      -  Run the following command: **go test**
+      -  This command automatically detects and executes any tests in the current directory and subdirectories.
+      -  If you have multiple test files, you can specify the specific test file to run: **go test -run TestInfrastructure** ,(Replace TestInfrastructure with the name of the specific test function you           want to run)
+
+The tests will run, and the test output will be displayed in the terminal. You'll see information about which tests passed or failed, along with any additional log output or assertions made within the tests.
+
+**Note:** _If all tests pass, you'll see a "PASS" message at the end of the output. If any tests fail, you'll see a detailed error message indicating the failure and the assertion that caused it.
+_
+Remember to ensure that you have the necessary dependencies installed, such as the Terratest library (github.com/gruntwork-io/terratest). You can use the go get command to install missing dependencies:
+**go get -u github.com/gruntwork-io/terratest**
