@@ -17,7 +17,8 @@ Workflow:
 
 
 
-![stepfunctions_graph](https://github.com/paulkannan/kycserverless/assets/46925641/406206ae-d1d4-4fd0-a722-341cb0ec89ff)
+![stepfunctions_graph](https://github.com/paulkannan/serverless-architecture-to-identify-Know-Your-Customer-data/assets/46925641/97d9829e-4f58-43eb-ac0f-7666f977c96a)
+
 
 To Deploy the code using Terraform:
 
