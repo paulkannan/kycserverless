@@ -1,4 +1,4 @@
-# KYC Serverless Architecture
+# Serverless Architecture to identify KnowYourCustomer (KYC) data
 The pattern creates a S3, Lambda function, Step Functions workflow with Lambda, Textract ,SQS,SNS, Log group and the IAM resources required to run the application. The pattern is an event based serverless architecture.
 ![Screenshot 2023-07-09 at 11 19 45 AM](https://github.com/paulkannan/kycserverless/assets/46925641/efb22a04-05e1-43d0-805f-91e6ff34d51a)
 
